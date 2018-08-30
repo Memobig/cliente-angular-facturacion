@@ -10,7 +10,7 @@ import { map } from 'rxjs/operators';
 })
 export class ClienteService {
 
-  private urlEndPoint: string = 'http://189.133.176.129:8080/api/clientes';
+  private urlEndPoint: string = 'http://localhost:8080/api/clientes';
 
   private httpHeaders  = new HttpHeaders({'Content-Type':'application/json'});
 
